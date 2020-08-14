@@ -1,0 +1,68 @@
+* {
+	font-family: 'Exo 2', sans-serif;
+	box-sizing: border-box;
+}
+.navbar-brand {
+	font-size: 2rem !important;
+	color: rgb(21, 21, 134);
+}
+.nav-link {
+	font-size: 1.3rem !important;
+}
+.active__class {
+	font-weight: 700;
+	border-bottom: 2px solid rgb(57, 57, 172);
+}
+.aboutme {
+	margin-top: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.aboutme__left {
+	min-width: 40%;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.aboutme__right {
+	padding: 5%;
+}
+.aboutme__info {
+	font-size: 1.5rem;
+}
+.aboutme__image {
+	width: 500px;
+	border-radius: 50%;
+	object-fit: contain;
+}
+.contact_details {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contactDetails__heading {
+	padding-bottom: 20px;
+}
+.contactDetails__icons {
+	margin-right: 10px;
+}
+.skill__card {
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.skillCard {
+	background-color: lightgray !important;
+	border-radius: 0 !important;
+	border: none !important;
+	margin: 20px 0;
+	text-align: center;
+	min-width: 500px !important;
+}
